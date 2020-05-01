@@ -1,10 +1,13 @@
 # Gaffertape
 
-Gaffertape helps you with setup and teardown for stuff you need to do for yoru tape tests.
+Gaffertape helps you with setup and teardown of stuff for your tape tests.
+Think of db entries, or a local server for testing API endpoints.
 
 ## Install
 
-```npm install gaffertape```
+```
+npm install @baseline-dev/gaffertape
+```
 
 ## Usage
 

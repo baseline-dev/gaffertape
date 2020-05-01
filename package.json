@@ -1,5 +1,5 @@
 {
-  "name": "gaffertape",
+  "name": "@baseline-dev/gaffertape",
   "version": "0.0.1",
   "description": "Fixtures for tape",
   "main": "index.js",
