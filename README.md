@@ -12,6 +12,13 @@ npm install @baseline-dev/gaffertape
 
 ## Usage
 
+You can call `setupFixtures` with a bunch of async functions which will be executes serially.
+Make sure that your last function is the actual test you want to run. 
+
+Each function will have access to the ctx object where you can store temporary state, needed for your tests.
+After the test run, `gaffertape` iterates over a `_teardown` array on the `ctx` object. 
+If you need to clean up, push an async function onto the `_teardown array`.
+
 ```javascript
 import setupFixtures from 'gaffertape'
 import test from 'tape';
