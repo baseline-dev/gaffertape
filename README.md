@@ -8,7 +8,7 @@ Gaffertape helps you with setup and teardown for stuff you need to do for yoru t
 
 ## Usage
 
-```
+```javascript
 import setupFixtures from 'gaffertape'
 import test from 'tape';
 
