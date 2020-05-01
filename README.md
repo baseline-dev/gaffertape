@@ -2,7 +2,7 @@
 
 Gaffertape helps you with setup and teardown of stuff for your tape tests.
 Think of db entries, or a local server for testing API endpoints.
-Inspiration from the excellent @mvhenten.
+Inspiration from the excellent [@mvhenten](https://github.com/mvhenten).
 
 ## Install
 
