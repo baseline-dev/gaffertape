@@ -1,6 +1,6 @@
 # Gaffertape
 
-Gaffertape helps you with setup and teardown of stuff for your tape tests.
+Gaffertape helps you with setup and teardown of stuff for your [tape tests](https://github.com/substack/tape).
 Think of db entries, or a local server for testing API endpoints.
 Inspiration from the excellent [@mvhenten](https://github.com/mvhenten).
 
