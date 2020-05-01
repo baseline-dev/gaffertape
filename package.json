@@ -1,0 +1,30 @@
+{
+  "name": "gaffertape",
+  "version": "0.0.1",
+  "description": "Fixtures for tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape --require esm *-test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseline-dev/gaffertape.git"
+  },
+  "keywords": [
+    "test",
+    "tape"
+  ],
+  "author": "Nikolai Onken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baseline-dev/gaffertape/issues"
+  },
+  "homepage": "https://github.com/baseline-dev/gaffertape#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
