@@ -21,10 +21,9 @@
   },
   "homepage": "https://github.com/baseline-dev/gaffertape#readme",
   "devDependencies": {
+    "esm": "^3.2.25",
     "tap-spec": "^5.0.0",
     "tape": "^5.0.0"
   },
-  "dependencies": {
-    "esm": "^3.2.25"
-  }
+  "dependencies": {}
 }
