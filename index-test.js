@@ -46,7 +46,9 @@ test('setupFixtures: setup, teardown and ctx setting', async (t) => {
     t.equal(ctx.testObjectTwo.id, 2);
   });
 
-  await fixtures();
+  await fixtures({
+    on: () => {}
+  });
 
   t.notOk(ctx.testObjectOne);
   t.notOk(ctx.testObjectTwo);
