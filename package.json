@@ -1,6 +1,6 @@
 {
   "name": "@baseline-dev/gaffertape",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fixtures for tape",
   "main": "index.js",
   "scripts": {
