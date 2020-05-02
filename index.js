@@ -7,9 +7,23 @@ function setupFixtures(...args) {
     };
 
     try {
+      let increasedPlan;
       await runSerial(fixtures, ctx);
+
+      // We are increasing the plan count when plan is called.
+      // This so we can teardown asyn after.
+      t.on('plan', async () => {
+        t._plan++;
+        increasedPlan = true;
+      })
+
       await test(t, ctx);
+
       await teardown(ctx);
+      if (increasedPlan) {
+        t._plan--;
+        t.end();
+      }
     } catch(e) {
       console.log(e)
       await teardown(ctx);
